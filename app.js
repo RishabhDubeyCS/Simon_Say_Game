@@ -22,7 +22,7 @@ for (let li of lis) {
         event.stopPropagation();
         console.log("li clicked");
     });
+    // Stop parent click events if needed
+        // event.stopPropagation();
 }
 
-// Stop parent click events if needed
-        // event.stopPropagation();
