@@ -1,6 +1,15 @@
 // Event Bubbling Example  parent element is also printing when child is clicked to Solve this issue we can use event.stopPropagation() method
 
-// Event Bubbling Example
+// Event Bubbling Example 
+
+{/* <div >
+      
+        <ul>
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+        </ul>
+    </div> */}
 
 let div = document.querySelector("div");
 let ul = document.querySelector("ul");
@@ -25,4 +34,7 @@ for (let li of lis) {
     // Stop parent click events if needed
         // event.stopPropagation();
 }
+
+
+
 

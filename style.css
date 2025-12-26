@@ -1,15 +1,29 @@
-div{
-    background-color: pink;
-    height: 200px;
-    width: 400px;
-    
+body {
+    text-align: center;
 
 }
-ul{
-    background-color: blueviolet
-    ;
+.btn{
+    height: 200px;
+     width:200px;
+     border-radius: 20px;
+     display:flex;
+     border:10px solid black;
+     margin: 2.5rem;
+
 }
-li{
+.btn-container{
+    display:flex;
+    justify-content: center;
+}
+.yellow{
     background-color: yellow;
-   
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.purple{
+    background-color: purple;
 }
